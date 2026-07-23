@@ -1,4 +1,16 @@
 aid: allena-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allena-pharmaceuticals.png
 name: Allena Pharmaceuticals
 description: 'Allena Pharmaceuticals is a company surfaced as a portfolio company of bessemer-venture-partners
   and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
@@ -16,9 +28,23 @@ modified: '2026-07-17'
 tags:
 - Company
 - Biotech
+- Pharmaceuticals
+- Life Sciences
+- Drug Development
+- Healthcare
+common:
+- type: DomainSecurity
+  url: security/allena-pharmaceuticals-domain-security.yml
+- type: Website
+  url: https://allenapharma.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
